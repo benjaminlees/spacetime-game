@@ -3,5 +3,13 @@
 
 ## Set up spacetime
 
-* spacetime publish --project-path server game
-*
+* `spacetime start`
+* `spacetime identity new``
+* `spacetime publish --project-path server --identity <identity id> <module-name>`
+
+
+## Set up client
+
+* `cd client`
+* `npm run start`
+

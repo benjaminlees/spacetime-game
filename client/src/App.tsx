@@ -15,7 +15,7 @@ export type MessageType = {
 };
 
 let token = localStorage.getItem('auth_token') || undefined;
-const spacetimeDBClient = new SpacetimeDBClient("ws://localhost:4000", "game", token);
+const spacetimeDBClient = new SpacetimeDBClient("ws://localhost:3000", "43c634fd83b767bb075b57009743dcc7", token);
 
 function App() {
   const [newName, setNewName] = useState("");
